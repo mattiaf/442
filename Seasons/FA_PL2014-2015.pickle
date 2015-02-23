@@ -1,0 +1,1877 @@
+ccopy_reg
+_reconstructor
+p0
+(cpandas.core.frame
+DataFrame
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+g0
+(cpandas.core.internals
+BlockManager
+p5
+g2
+Ntp6
+Rp7
+((lp8
+cpandas.core.index
+_new_Index
+p9
+(cpandas.core.index
+Index
+p10
+(dp11
+S'data'
+p12
+cnumpy.core.multiarray
+_reconstruct
+p13
+(cnumpy
+ndarray
+p14
+(I0
+tp15
+S'b'
+p16
+tp17
+Rp18
+(I1
+(I6
+tp19
+cnumpy
+dtype
+p20
+(S'O8'
+p21
+I0
+I1
+tp22
+Rp23
+(I3
+S'|'
+p24
+NNNI-1
+I-1
+I63
+tp25
+bI00
+(lp26
+S'Team1'
+p27
+aS'Team2'
+p28
+aS'Result'
+p29
+aS'Match'
+p30
+aS'Tactic1'
+p31
+aS'Tactic2'
+p32
+atp33
+bsS'name'
+p34
+Nstp35
+Rp36
+ag9
+(cpandas.core.index
+Int64Index
+p37
+(dp38
+g12
+g13
+(g14
+(I0
+tp39
+g16
+tp40
+Rp41
+(I1
+(I141
+tp42
+g20
+(S'i8'
+p43
+I0
+I1
+tp44
+Rp45
+(I3
+S'<'
+p46
+NNNI-1
+I-1
+I0
+tp47
+bI00
+S'\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00*\x00\x00\x00\x00\x00\x00\x00+\x00\x00\x00\x00\x00\x00\x00,\x00\x00\x00\x00\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00.\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x000\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x00\x00\x00\x002\x00\x00\x00\x00\x00\x00\x003\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x00\x00\x00\x005\x00\x00\x00\x00\x00\x00\x006\x00\x00\x00\x00\x00\x00\x007\x00\x00\x00\x00\x00\x00\x008\x00\x00\x00\x00\x00\x00\x009\x00\x00\x00\x00\x00\x00\x00:\x00\x00\x00\x00\x00\x00\x00;\x00\x00\x00\x00\x00\x00\x00<\x00\x00\x00\x00\x00\x00\x00=\x00\x00\x00\x00\x00\x00\x00>\x00\x00\x00\x00\x00\x00\x00?\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x00\x00\x00\x00\x00B\x00\x00\x00\x00\x00\x00\x00C\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00E\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x00\x00\x00\x00G\x00\x00\x00\x00\x00\x00\x00H\x00\x00\x00\x00\x00\x00\x00I\x00\x00\x00\x00\x00\x00\x00J\x00\x00\x00\x00\x00\x00\x00K\x00\x00\x00\x00\x00\x00\x00L\x00\x00\x00\x00\x00\x00\x00M\x00\x00\x00\x00\x00\x00\x00N\x00\x00\x00\x00\x00\x00\x00O\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x00\x00\x00\x00Q\x00\x00\x00\x00\x00\x00\x00R\x00\x00\x00\x00\x00\x00\x00S\x00\x00\x00\x00\x00\x00\x00T\x00\x00\x00\x00\x00\x00\x00U\x00\x00\x00\x00\x00\x00\x00V\x00\x00\x00\x00\x00\x00\x00W\x00\x00\x00\x00\x00\x00\x00X\x00\x00\x00\x00\x00\x00\x00Y\x00\x00\x00\x00\x00\x00\x00Z\x00\x00\x00\x00\x00\x00\x00[\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x00\x00\x00\x00]\x00\x00\x00\x00\x00\x00\x00^\x00\x00\x00\x00\x00\x00\x00_\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00\x00a\x00\x00\x00\x00\x00\x00\x00b\x00\x00\x00\x00\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00e\x00\x00\x00\x00\x00\x00\x00f\x00\x00\x00\x00\x00\x00\x00g\x00\x00\x00\x00\x00\x00\x00h\x00\x00\x00\x00\x00\x00\x00i\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x00\x00\x00\x00k\x00\x00\x00\x00\x00\x00\x00l\x00\x00\x00\x00\x00\x00\x00m\x00\x00\x00\x00\x00\x00\x00n\x00\x00\x00\x00\x00\x00\x00o\x00\x00\x00\x00\x00\x00\x00p\x00\x00\x00\x00\x00\x00\x00q\x00\x00\x00\x00\x00\x00\x00r\x00\x00\x00\x00\x00\x00\x00s\x00\x00\x00\x00\x00\x00\x00t\x00\x00\x00\x00\x00\x00\x00u\x00\x00\x00\x00\x00\x00\x00v\x00\x00\x00\x00\x00\x00\x00w\x00\x00\x00\x00\x00\x00\x00x\x00\x00\x00\x00\x00\x00\x00y\x00\x00\x00\x00\x00\x00\x00z\x00\x00\x00\x00\x00\x00\x00{\x00\x00\x00\x00\x00\x00\x00|\x00\x00\x00\x00\x00\x00\x00}\x00\x00\x00\x00\x00\x00\x00~\x00\x00\x00\x00\x00\x00\x00\x7f\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x82\x00\x00\x00\x00\x00\x00\x00\x83\x00\x00\x00\x00\x00\x00\x00\x84\x00\x00\x00\x00\x00\x00\x00\x85\x00\x00\x00\x00\x00\x00\x00\x86\x00\x00\x00\x00\x00\x00\x00\x87\x00\x00\x00\x00\x00\x00\x00\x88\x00\x00\x00\x00\x00\x00\x00\x89\x00\x00\x00\x00\x00\x00\x00\x8a\x00\x00\x00\x00\x00\x00\x00\x8b\x00\x00\x00\x00\x00\x00\x00\x8c\x00\x00\x00\x00\x00\x00\x00'
+p48
+tp49
+bsg34
+Nstp50
+Rp51
+a(lp52
+g13
+(g14
+(I0
+tp53
+g16
+tp54
+Rp55
+(I1
+(I6
+I141
+tp56
+g23
+I00
+(lp57
+S'Man Utd'
+p58
+aS'Leicester'
+p59
+aS'QPR'
+p60
+aS'Stoke City'
+p61
+aS'West Brom'
+p62
+aS'West Ham'
+p63
+aS'Arsenal'
+p64
+aS'Newcastle'
+p65
+aS'A Villa'
+p66
+aS'Chelsea'
+p67
+aS'C Palace'
+p68
+aS'Southmptn'
+p69
+aS'Swansea'
+p70
+aS'Everton'
+p71
+aS'Tottenham'
+p72
+aS'Sunderland'
+p73
+aS'Burnley'
+p74
+aS'Man City'
+p75
+aS'Newcastle'
+p76
+aS'QPR'
+p77
+aS'Swansea'
+p78
+aS'West Ham'
+p79
+aS'Everton'
+p80
+aS'Tottenham'
+p81
+aS'Leicester'
+p82
+aS'Arsenal'
+p83
+aS'Chelsea'
+p84
+aS'C Palace'
+p85
+aS'Southmptn'
+p86
+aS'Stoke City'
+p87
+aS'Sunderland'
+p88
+aS'West Brom'
+p89
+aS'Liverpool'
+p90
+aS'QPR'
+p91
+aS'A Villa'
+p92
+aS'Burnley'
+p93
+aS'Newcastle'
+p94
+aS'Swansea'
+p95
+aS'West Ham'
+p96
+aS'Tottenham'
+p97
+aS'Everton'
+p98
+aS'Man City'
+p99
+aS'Liverpool'
+p100
+aS'Chelsea'
+p101
+aS'C Palace'
+p102
+aS'Hull City'
+p103
+aS'Man Utd'
+p104
+aS'Southmptn'
+p105
+aS'Sunderland'
+p106
+aS'Arsenal'
+p107
+aS'Hull City'
+p108
+aS'Leicester'
+p109
+aS'Liverpool'
+p110
+aS'Sunderland'
+p111
+aS'Swansea'
+p112
+aS'A Villa'
+p113
+aS'Chelsea'
+p114
+aS'Tottenham'
+p115
+aS'West Ham'
+p116
+aS'Man City'
+p117
+aS'Arsenal'
+p118
+aS'Burnley'
+p119
+aS'C Palace'
+p120
+aS'Everton'
+p121
+aS'Southmptn'
+p122
+aS'Newcastle'
+p123
+aS'Stoke City'
+p124
+aS'West Ham'
+p125
+aS'Liverpool'
+p126
+aS'Southmptn'
+p127
+aS'Sunderland'
+p128
+aS'West Brom'
+p129
+aS'Swansea'
+p130
+aS'Tottenham'
+p131
+aS'Man Utd'
+p132
+aS'Newcastle'
+p133
+aS'Arsenal'
+p134
+aS'Chelsea'
+p135
+aS'Everton'
+p136
+aS'Hull City'
+p137
+aS'Leicester'
+p138
+aS'Stoke City'
+p139
+aS'A Villa'
+p140
+aS'Liverpool'
+p141
+aS'Burnley'
+p142
+aS'Man Utd'
+p143
+aS'Southmptn'
+p144
+aS'West Ham'
+p145
+aS'QPR'
+p146
+aS'Tottenham'
+p147
+aS'West Brom'
+p148
+aS'Swansea'
+p149
+aS'Chelsea'
+p150
+aS'Everton'
+p151
+aS'Leicester'
+p152
+aS'Man City'
+p153
+aS'Newcastle'
+p154
+aS'Stoke City'
+p155
+aS'Arsenal'
+p156
+aS'Hull City'
+p157
+aS'West Brom'
+p158
+aS'Burnley'
+p159
+aS'Liverpool'
+p160
+aS'Man Utd'
+p161
+aS'QPR'
+p162
+aS'Swansea'
+p163
+aS'West Ham'
+p164
+aS'Sunderland'
+p165
+aS'Tottenham'
+p166
+aS'Burnley'
+p167
+aS'Leicester'
+p168
+aS'Man Utd'
+p169
+aS'Swansea'
+p170
+aS'C Palace'
+p171
+aS'West Brom'
+p172
+aS'Chelsea'
+p173
+aS'Everton'
+p174
+aS'Sunderland'
+p175
+aS'Newcastle'
+p176
+aS'Hull City'
+p177
+aS'Liverpool'
+p178
+aS'QPR'
+p179
+aS'Stoke City'
+p180
+aS'Tottenham'
+p181
+aS'Man City'
+p182
+aS'A Villa'
+p183
+aS'Burnley'
+p184
+aS'Chelsea'
+p185
+aS'C Palace'
+p186
+aS'Leicester'
+p187
+aS'Sunderland'
+p188
+aS'West Brom'
+p189
+aS'Arsenal'
+p190
+aS'Swansea'
+p191
+aS'Man City'
+p192
+aS'A Villa'
+p193
+aS'Hull City'
+p194
+aS'QPR'
+p195
+aS'Southmptn'
+p196
+aS'Tottenham'
+p197
+aS'West Ham'
+p198
+aS'Swansea'
+p199
+aS'Everton'
+p200
+aS'Hull City'
+p201
+aS'A Villa'
+p202
+aS'Sunderland'
+p203
+aS'Tottenham'
+p204
+aS'C Palace'
+p205
+aS'Man City'
+p206
+aS'Newcastle'
+p207
+aS'Leicester'
+p208
+aS'West Ham'
+p209
+aS'West Brom'
+p210
+aS'Burnley'
+p211
+aS'Arsenal'
+p212
+aS'QPR'
+p213
+aS'Man Utd'
+p214
+aS'Man Utd'
+p215
+aS'Stoke City'
+p216
+aS'C Palace'
+p217
+aS'Sunderland'
+p218
+aS'West Brom'
+p219
+aS'Southmptn'
+p220
+aS'Chelsea'
+p221
+aS'Liverpool'
+p222
+aS'Arsenal'
+p223
+aS'Man City'
+p224
+aS'Swansea'
+p225
+aS'Burnley'
+p226
+aS'Newcastle'
+p227
+aS'Leicester'
+p228
+aS'Tottenham'
+p229
+aS'Everton'
+p230
+aS'A Villa'
+p231
+aS'Stoke City'
+p232
+aS'Arsenal'
+p233
+aS'Sunderland'
+p234
+aS'Hull City'
+p235
+aS'Southmptn'
+p236
+aS'Liverpool'
+p237
+aS'West Brom'
+p238
+aS'C Palace'
+p239
+aS'Chelsea'
+p240
+aS'Everton'
+p241
+aS'A Villa'
+p242
+aS'Leicester'
+p243
+aS'Man City'
+p244
+aS'West Ham'
+p245
+aS'QPR'
+p246
+aS'Swansea'
+p247
+aS'Tottenham'
+p248
+aS'C Palace'
+p249
+aS'Burnley'
+p250
+aS'West Brom'
+p251
+aS'Stoke City'
+p252
+aS'Newcastle'
+p253
+aS'Man City'
+p254
+aS'Arsenal'
+p255
+aS'Southmptn'
+p256
+aS'QPR'
+p257
+aS'Tottenham'
+p258
+aS'Hull City'
+p259
+aS'West Ham'
+p260
+aS'Chelsea'
+p261
+aS'A Villa'
+p262
+aS'Sunderland'
+p263
+aS'Leicester'
+p264
+aS'Swansea'
+p265
+aS'Man City'
+p266
+aS'Hull City'
+p267
+aS'Stoke City'
+p268
+aS'Arsenal'
+p269
+aS'C Palace'
+p270
+aS'Leicester'
+p271
+aS'Newcastle'
+p272
+aS'Chelsea'
+p273
+aS'Liverpool'
+p274
+aS'Burnley'
+p275
+aS'QPR'
+p276
+aS'Swansea'
+p277
+aS'Southmptn'
+p278
+aS'West Brom'
+p279
+aS'West Ham'
+p280
+aS'Tottenham'
+p281
+aS'Chelsea'
+p282
+aS'Hull City'
+p283
+aS'C Palace'
+p284
+aS'Leicester'
+p285
+aS'A Villa'
+p286
+aS'Man City'
+p287
+aS'Stoke City'
+p288
+aS'Newcastle'
+p289
+aS'Arsenal'
+p290
+aS'West Brom'
+p291
+aS'West Ham'
+p292
+aS'Sunderland'
+p293
+aS'Swansea'
+p294
+aS'QPR'
+p295
+aS'Burnley'
+p296
+aS'Man Utd'
+p297
+aS'Tottenham'
+p298
+aS'Arsenal'
+p299
+aS'A Villa'
+p300
+aS'Stoke City'
+p301
+aS'Hull City'
+p302
+aS'Leicester'
+p303
+aS'C Palace'
+p304
+aS'Newcastle'
+p305
+aS'Chelsea'
+p306
+aS'Everton'
+p307
+aS'Newcastle'
+p308
+aS'Liverpool'
+p309
+aS'Stoke City'
+p310
+aS'QPR'
+p311
+aS'A Villa'
+p312
+aS'West Ham'
+p313
+aS'Tottenham'
+p314
+aS'Hull City'
+p315
+aS'Man City'
+p316
+aS'Chelsea'
+p317
+aS'West Brom'
+p318
+aS'Sunderland'
+p319
+aS'Burnley'
+p320
+aS'Arsenal'
+p321
+aS'C Palace'
+p322
+aS'Everton'
+p323
+aS'Leicester'
+p324
+aS'Southmptn'
+p325
+aS'Hull City'
+p326
+aS'Stoke City'
+p327
+aS'Man City'
+p328
+aS'West Ham'
+p329
+aS'A Villa'
+p330
+aS'Newcastle'
+p331
+aS'Tottenham'
+p332
+aS'C Palace'
+p333
+aS'Man Utd'
+p334
+aS'Swansea'
+p335
+aS'West Brom'
+p336
+aS'Everton'
+p337
+aS'Burnley'
+p338
+aS'Leicester'
+p339
+aS' 1-2 '
+p340
+aS' 2-2 '
+p341
+aS' 0-1 '
+p342
+aS' 0-1 '
+p343
+aS' 2-2 '
+p344
+aS' 0-1 '
+p345
+aS' 2-1 '
+p346
+aS' 0-2 '
+p347
+aS' 0-0 '
+p348
+aS' 2-0 '
+p349
+aS' 1-3 '
+p350
+aS' 0-0 '
+p351
+aS' 1-0 '
+p352
+aS' 2-2 '
+p353
+aS' 4-0 '
+p354
+aS' 1-1 '
+p355
+aS' 0-0 '
+p356
+aS' 0-1 '
+p357
+aS' 3-3 '
+p358
+aS' 1-0 '
+p359
+aS' 3-0 '
+p360
+aS' 1-3 '
+p361
+aS' 3-6 '
+p362
+aS' 0-3 '
+p363
+aS' 1-1 '
+p364
+aS' 2-2 '
+p365
+aS' 4-2 '
+p366
+aS' 0-0 '
+p367
+aS' 4-0 '
+p368
+aS' 0-1 '
+p369
+aS' 2-2 '
+p370
+aS' 0-2 '
+p371
+aS' 0-1 '
+p372
+aS' 2-2 '
+p373
+aS' 0-3 '
+p374
+aS' 0-0 '
+p375
+aS' 2-2 '
+p376
+aS' 0-1 '
+p377
+aS' 3-1 '
+p378
+aS' 0-1 '
+p379
+aS' 2-3 '
+p380
+aS' 1-1 '
+p381
+aS' 1-1 '
+p382
+aS' 3-0 '
+p383
+aS' 2-0 '
+p384
+aS' 2-4 '
+p385
+aS' 2-1 '
+p386
+aS' 2-1 '
+p387
+aS' 0-0 '
+p388
+aS' 1-1 '
+p389
+aS' 2-0 '
+p390
+aS' 2-2 '
+p391
+aS' 2-1 '
+p392
+aS' 3-1 '
+p393
+aS' 2-2 '
+p394
+aS' 0-2 '
+p395
+aS' 2-0 '
+p396
+aS' 1-0 '
+p397
+aS' 2-0 '
+p398
+aS' 4-1 '
+p399
+aS' 2-2 '
+p400
+aS' 1-3 '
+p401
+aS' 1-2 '
+p402
+aS' 3-0 '
+p403
+aS' 8-0 '
+p404
+aS' 1-0 '
+p405
+aS' 2-1 '
+p406
+aS' 2-1 '
+p407
+aS' 0-0 '
+p408
+aS' 1-0 '
+p409
+aS' 0-2 '
+p410
+aS' 2-2 '
+p411
+aS' 2-0 '
+p412
+aS' 1-2 '
+p413
+aS' 1-1 '
+p414
+aS' 1-0 '
+p415
+aS' 3-0 '
+p416
+aS' 2-1 '
+p417
+aS' 0-0 '
+p418
+aS' 0-1 '
+p419
+aS' 0-1 '
+p420
+aS' 2-2 '
+p421
+aS' 1-2 '
+p422
+aS' 1-2 '
+p423
+aS' 1-0 '
+p424
+aS' 1-0 '
+p425
+aS' 2-0 '
+p426
+aS' 0-0 '
+p427
+aS' 2-2 '
+p428
+aS' 1-2 '
+p429
+aS' 0-2 '
+p430
+aS' 2-1 '
+p431
+aS' 2-0 '
+p432
+aS' 2-1 '
+p433
+aS' 0-0 '
+p434
+aS' 2-1 '
+p435
+aS' 1-0 '
+p436
+aS' 1-2 '
+p437
+aS' 1-2 '
+p438
+aS' 1-2 '
+p439
+aS' 0-1 '
+p440
+aS' 1-1 '
+p441
+aS' 1-0 '
+p442
+aS' 3-0 '
+p443
+aS' 3-2 '
+p444
+aS' 1-1 '
+p445
+aS' 1-0 '
+p446
+aS' 0-0 '
+p447
+aS' 2-1 '
+p448
+aS' 1-1 '
+p449
+aS' 1-3 '
+p450
+aS' 2-1 '
+p451
+aS' 2-0 '
+p452
+aS' 0-1 '
+p453
+aS' 1-2 '
+p454
+aS' 3-0 '
+p455
+aS' 1-1 '
+p456
+aS' 1-4 '
+p457
+aS' 2-1 '
+p458
+aS' 0-0 '
+p459
+aS' 0-0 '
+p460
+aS' 2-0 '
+p461
+aS' 3-2 '
+p462
+aS' 0-0 '
+p463
+aS' 1-0 '
+p464
+aS' 2-1 '
+p465
+aS' 1-0 '
+p466
+aS' 2-0 '
+p467
+aS' 1-1 '
+p468
+aS' 0-1 '
+p469
+aS' 1-1 '
+p470
+aS' 1-0 '
+p471
+aS' 4-1 '
+p472
+aS' 1-2 '
+p473
+aS' 3-0 '
+p474
+aS' 1-1 '
+p475
+aS' 0-1 '
+p476
+aS' 3-2 '
+p477
+aS' 3-0 '
+p478
+aS' 2-1 '
+p479
+aS' 2-0 '
+p480
+aS'/match/187488/'
+p481
+aS'/match/187486/'
+p482
+aS'/match/187490/'
+p483
+aS'/match/187491/'
+p484
+aS'/match/187492/'
+p485
+aS'/match/187493/'
+p486
+aS'/match/187484/'
+p487
+aS'/match/187489/'
+p488
+aS'/match/187494/'
+p489
+aS'/match/187495/'
+p490
+aS'/match/187496/'
+p491
+aS'/match/187500/'
+p492
+aS'/match/187502/'
+p493
+aS'/match/187497/'
+p494
+aS'/match/187503/'
+p495
+aS'/match/187501/'
+p496
+aS'/match/187505/'
+p497
+aS'/match/187508/'
+p498
+aS'/match/187509/'
+p499
+aS'/match/187510/'
+p500
+aS'/match/187511/'
+p501
+aS'/match/187513/'
+p502
+aS'/match/187506/'
+p503
+aS'/match/187512/'
+p504
+aS'/match/187507/'
+p505
+aS'/match/187514/'
+p506
+aS'/match/187515/'
+p507
+aS'/match/187516/'
+p508
+aS'/match/187520/'
+p509
+aS'/match/187521/'
+p510
+aS'/match/187522/'
+p511
+aS'/match/187523/'
+p512
+aS'/match/187518/'
+p513
+aS'/match/187530/'
+p514
+aS'/match/187524/'
+p515
+aS'/match/187525/'
+p516
+aS'/match/187529/'
+p517
+aS'/match/187531/'
+p518
+aS'/match/187533/'
+p519
+aS'/match/187532/'
+p520
+aS'/match/187526/'
+p521
+aS'/match/187528/'
+p522
+aS'/match/187538/'
+p523
+aS'/match/187535/'
+p524
+aS'/match/187536/'
+p525
+aS'/match/187537/'
+p526
+aS'/match/187539/'
+p527
+aS'/match/187540/'
+p528
+aS'/match/187542/'
+p529
+aS'/match/187534/'
+p530
+aS'/match/187546/'
+p531
+aS'/match/187547/'
+p532
+aS'/match/187548/'
+p533
+aS'/match/187550/'
+p534
+aS'/match/187551/'
+p535
+aS'/match/187544/'
+p536
+aS'/match/187545/'
+p537
+aS'/match/187552/'
+p538
+aS'/match/187553/'
+p539
+aS'/match/187582/'
+p540
+aS'/match/187578/'
+p541
+aS'/match/187579/'
+p542
+aS'/match/187580/'
+p543
+aS'/match/187581/'
+p544
+aS'/match/187585/'
+p545
+aS'/match/187583/'
+p546
+aS'/match/187586/'
+p547
+aS'/match/187597/'
+p548
+aS'/match/187589/'
+p549
+aS'/match/187592/'
+p550
+aS'/match/187593/'
+p551
+aS'/match/187596/'
+p552
+aS'/match/187594/'
+p553
+aS'/match/187595/'
+p554
+aS'/match/187590/'
+p555
+aS'/match/187617/'
+p556
+aS'/match/187609/'
+p557
+aS'/match/187611/'
+p558
+aS'/match/187613/'
+p559
+aS'/match/187614/'
+p560
+aS'/match/187615/'
+p561
+aS'/match/187618/'
+p562
+aS'/match/187610/'
+p563
+aS'/match/187621/'
+p564
+aS'/match/187620/'
+p565
+aS'/match/187622/'
+p566
+aS'/match/187624/'
+p567
+aS'/match/187629/'
+p568
+aS'/match/187623/'
+p569
+aS'/match/187627/'
+p570
+aS'/match/187628/'
+p571
+aS'/match/187626/'
+p572
+aS'/match/187644/'
+p573
+aS'/match/187646/'
+p574
+aS'/match/187648/'
+p575
+aS'/match/187649/'
+p576
+aS'/match/187650/'
+p577
+aS'/match/187651/'
+p578
+aS'/match/187642/'
+p579
+aS'/match/187647/'
+p580
+aS'/match/187660/'
+p581
+aS'/match/187652/'
+p582
+aS'/match/187653/'
+p583
+aS'/match/187654/'
+p584
+aS'/match/187655/'
+p585
+aS'/match/187658/'
+p586
+aS'/match/187661/'
+p587
+aS'/match/187657/'
+p588
+aS'/match/187659/'
+p589
+aS'/match/187663/'
+p590
+aS'/match/187664/'
+p591
+aS'/match/187665/'
+p592
+aS'/match/187666/'
+p593
+aS'/match/187667/'
+p594
+aS'/match/187668/'
+p595
+aS'/match/187669/'
+p596
+aS'/match/187670/'
+p597
+aS'/match/187671/'
+p598
+aS'/match/187676/'
+p599
+aS'/match/187673/'
+p600
+aS'/match/187674/'
+p601
+aS'/match/187677/'
+p602
+aS'/match/187679/'
+p603
+aS'/match/187680/'
+p604
+aS'/match/187675/'
+p605
+aS'/match/187672/'
+p606
+aS'/match/187683/'
+p607
+aS'/match/187684/'
+p608
+aS'/match/187685/'
+p609
+aS'/match/187687/'
+p610
+aS'/match/187689/'
+p611
+aS'/match/187691/'
+p612
+aS'/match/187682/'
+p613
+aS'/match/187690/'
+p614
+aS'/match/187695/'
+p615
+aS'/match/187692/'
+p616
+aS'/match/187693/'
+p617
+aS'/match/187697/'
+p618
+aS'/match/187698/'
+p619
+aS'/match/187700/'
+p620
+aS'/match/187701/'
+p621
+aS'3-4-1-2'
+p622
+aS'4-4-2'
+p623
+aS'5-3-2'
+p624
+aS'4-2-3-1'
+p625
+aS'4-2-3-1'
+p626
+aS'4-2-3-1'
+p627
+aS'4-1-4-1'
+p628
+aS'4-2-3-1'
+p629
+aS'4-3-3'
+p630
+aS'4-1-4-1'
+p631
+aS'4-2-3-1'
+p632
+aS'4-2-3-1'
+p633
+aS'4-2-3-1'
+p634
+aS'4-2-3-1'
+p635
+aS'4-2-3-1'
+p636
+aS'4-3-3'
+p637
+aS'4-4-1-1'
+p638
+aS'4-1-4-1'
+p639
+aS'4-1-4-1'
+p640
+aS'4-2-3-1'
+p641
+aS'4-2-3-1'
+p642
+aS'4-2-3-1'
+p643
+aS'4-2-3-1'
+p644
+aS'4-2-3-1'
+p645
+aS'4-4-2'
+p646
+aS'4-1-4-1'
+p647
+aS'4-1-4-1'
+p648
+aS'4-2-3-1'
+p649
+aS'4-2-3-1'
+p650
+aS'4-2-3-1'
+p651
+aS'4-2-3-1'
+p652
+aS'4-2-3-1'
+p653
+aS'4-2-3-1'
+p654
+aS'4-4-2'
+p655
+aS'4-3-2-1'
+p656
+aS'4-4-2'
+p657
+aS'4-3-1-2'
+p658
+aS'4-2-3-1'
+p659
+aS'4-3-1-2'
+p660
+aS'4-1-4-1'
+p661
+aS'4-2-3-1'
+p662
+aS'4-2-3-1'
+p663
+aS'4-2-3-1'
+p664
+aS'4-2-3-1'
+p665
+aS'4-2-3-1'
+p666
+aS'4-4-2'
+p667
+aS'4-3-1-2'
+p668
+aS'4-2-3-1'
+p669
+aS'4-2-3-1'
+p670
+aS'4-1-4-1'
+p671
+aS'3-5-2'
+p672
+aS'4-4-2'
+p673
+aS'4-2-3-1'
+p674
+aS'4-1-4-1'
+p675
+aS'4-2-3-1'
+p676
+aS'4-3-2-1'
+p677
+aS'4-1-4-1'
+p678
+aS'4-2-3-1'
+p679
+aS'4-3-3'
+p680
+aS'4-2-3-1'
+p681
+aS'4-2-3-1'
+p682
+aS'4-4-1-1'
+p683
+aS'4-5-1'
+p684
+aS'4-2-3-1'
+p685
+aS'4-2-3-1'
+p686
+aS'4-2-3-1'
+p687
+aS'4-2-3-1'
+p688
+aS'4-3-1-2'
+p689
+aS'4-3-2-1'
+p690
+aS'4-2-3-1'
+p691
+aS'4-1-4-1'
+p692
+aS'4-2-3-1'
+p693
+aS'4-2-3-1'
+p694
+aS'4-2-3-1'
+p695
+aS'4-3-1-2'
+p696
+aS'4-2-3-1'
+p697
+aS'4-2-3-1'
+p698
+aS'4-1-4-1'
+p699
+aS'4-2-3-1'
+p700
+aS'3-4-2-1'
+p701
+aS'4-1-3-2'
+p702
+aS'4-2-3-1'
+p703
+aS'4-3-2-1'
+p704
+aS'4-2-3-1'
+p705
+aS'4-4-1-1'
+p706
+aS'4-1-4-1'
+p707
+aS'4-2-3-1'
+p708
+aS'4-3-1-2'
+p709
+aS'4-4-2'
+p710
+aS'4-2-3-1'
+p711
+aS'4-2-3-1'
+p712
+aS'4-2-3-1'
+p713
+aS'4-2-3-1'
+p714
+aS'4-2-3-1'
+p715
+aS'4-4-2'
+p716
+aS'4-2-3-1'
+p717
+aS'4-2-3-1'
+p718
+aS'4-2-3-1'
+p719
+aS'4-1-4-1'
+p720
+aS'4-2-3-1'
+p721
+aS'4-2-3-1'
+p722
+aS'4-4-2'
+p723
+aS'4-2-3-1'
+p724
+aS'4-3-1-2'
+p725
+aS'4-4-2'
+p726
+aS'4-2-3-1'
+p727
+aS'4-2-3-1'
+p728
+aS'4-1-4-1'
+p729
+aS'4-4-2'
+p730
+aS'4-4-2'
+p731
+aS'4-4-1-1'
+p732
+aS'4-3-1-2'
+p733
+aS'4-2-3-1'
+p734
+aS'4-2-3-1'
+p735
+aS'4-2-3-1'
+p736
+aS'4-2-3-1'
+p737
+aS'4-2-3-1'
+p738
+aS'4-1-4-1'
+p739
+aS'4-2-3-1'
+p740
+aS'4-2-3-1'
+p741
+aS'4-1-4-1'
+p742
+aS'4-4-2'
+p743
+aS'4-2-3-1'
+p744
+aS'4-2-3-1'
+p745
+aS'4-2-3-1'
+p746
+aS'4-3-2-1'
+p747
+aS'4-4-2'
+p748
+aS'4-2-3-1'
+p749
+aS'4-2-3-1'
+p750
+aS'4-1-4-1'
+p751
+aS'4-1-4-1'
+p752
+aS'4-2-3-1'
+p753
+aS'4-1-4-1'
+p754
+aS'4-2-3-1'
+p755
+aS'4-2-3-1'
+p756
+aS'5-3-2'
+p757
+aS'3-4-1-2'
+p758
+aS'4-2-3-1'
+p759
+aS'3-4-2-1'
+p760
+aS'4-2-3-1'
+p761
+aS'4-3-1-2'
+p762
+aS'4-2-3-1'
+p763
+aS'4-2-3-1'
+p764
+aS'3-4-2-1'
+p765
+aS'4-3-2-1'
+p766
+aS'4-4-2'
+p767
+aS'4-2-3-1'
+p768
+aS'4-2-3-1'
+p769
+aS'4-2-3-1'
+p770
+aS'4-2-3-1'
+p771
+aS'4-2-3-1'
+p772
+aS'4-2-3-1'
+p773
+aS'4-2-3-1'
+p774
+aS'4-2-3-1'
+p775
+aS'4-1-4-1'
+p776
+aS'3-4-2-1'
+p777
+aS'3-4-1-2'
+p778
+aS'3-3-3-1'
+p779
+aS'4-2-3-1'
+p780
+aS'4-2-3-1'
+p781
+aS'4-1-4-1'
+p782
+aS'4-2-3-1'
+p783
+aS'4-2-3-1'
+p784
+aS'4-1-4-1'
+p785
+aS'4-3-1-2'
+p786
+aS'4-1-4-1'
+p787
+aS'4-2-3-1'
+p788
+aS'4-2-3-1'
+p789
+aS'4-4-2'
+p790
+aS'4-2-3-1'
+p791
+aS'4-4-2'
+p792
+aS'4-2-3-1'
+p793
+aS'4-2-3-1'
+p794
+aS'4-3-2-1'
+p795
+aS'4-1-4-1'
+p796
+aS'4-2-3-1'
+p797
+aS'4-1-4-1'
+p798
+aS'4-2-3-1'
+p799
+aS'4-3-2-1'
+p800
+aS'4-3-1-2'
+p801
+aS'4-1-3-2'
+p802
+aS'4-2-3-1'
+p803
+aS'4-1-4-1'
+p804
+aS'4-3-3'
+p805
+aS'4-5-1'
+p806
+aS'4-3-1-2'
+p807
+aS'4-2-3-1'
+p808
+aS'4-2-3-1'
+p809
+aS'4-1-3-2'
+p810
+aS'4-2-3-1'
+p811
+aS'4-1-4-1'
+p812
+aS'4-2-3-1'
+p813
+aS'4-4-1-1'
+p814
+aS'4-2-3-1'
+p815
+aS'4-2-3-1'
+p816
+aS'4-2-3-1'
+p817
+aS'4-2-3-1'
+p818
+aS'4-1-4-1'
+p819
+aS'4-2-3-1'
+p820
+aS'4-2-3-1'
+p821
+aS'4-2-3-1'
+p822
+aS'3-5-1-1'
+p823
+aS'4-2-2-2'
+p824
+aS'4-2-3-1'
+p825
+aS'4-3-2-1'
+p826
+aS'4-1-4-1'
+p827
+aS'4-1-4-1'
+p828
+aS'4-2-3-1'
+p829
+aS'4-2-3-1'
+p830
+aS'3-5-1-1'
+p831
+aS'4-2-3-1'
+p832
+aS'4-2-3-1'
+p833
+aS'4-2-3-1'
+p834
+aS'4-4-2'
+p835
+aS'4-2-3-1'
+p836
+aS'4-1-4-1'
+p837
+aS'4-2-3-1'
+p838
+aS'4-4-1-1'
+p839
+aS'4-3-2-1'
+p840
+aS'4-2-3-1'
+p841
+aS'4-2-3-1'
+p842
+aS'4-2-3-1'
+p843
+aS'4-2-3-1'
+p844
+aS'4-4-2'
+p845
+aS'4-2-3-1'
+p846
+aS'3-4-2-1'
+p847
+aS'4-2-3-1'
+p848
+aS'4-1-3-2'
+p849
+aS'4-3-2-1'
+p850
+aS'4-2-3-1'
+p851
+aS'4-2-3-1'
+p852
+aS'4-2-3-1'
+p853
+aS'4-2-3-1'
+p854
+aS'4-2-3-1'
+p855
+aS'5-3-2'
+p856
+aS'4-1-4-1'
+p857
+aS'4-2-3-1'
+p858
+aS'4-4-2'
+p859
+aS'4-4-2'
+p860
+aS'3-4-2-1'
+p861
+aS'4-2-3-1'
+p862
+aS'4-2-3-1'
+p863
+aS'4-2-3-1'
+p864
+aS'4-2-3-1'
+p865
+aS'5-4-1'
+p866
+aS'4-2-3-1'
+p867
+aS'4-2-3-1'
+p868
+aS'4-2-3-1'
+p869
+aS'4-2-3-1'
+p870
+aS'4-2-3-1'
+p871
+aS'4-2-3-1'
+p872
+aS'4-1-4-1'
+p873
+aS'4-2-3-1'
+p874
+aS'4-2-3-1'
+p875
+aS'4-3-2-1'
+p876
+aS'4-2-3-1'
+p877
+aS'4-2-3-1'
+p878
+aS'4-2-3-1'
+p879
+aS'4-2-3-1'
+p880
+aS'4-2-3-1'
+p881
+aS'4-2-3-1'
+p882
+aS'4-1-4-1'
+p883
+aS'4-4-2'
+p884
+aS'4-2-3-1'
+p885
+aS'4-2-3-1'
+p886
+aS'4-2-3-1'
+p887
+aS'4-4-2'
+p888
+aS'4-2-3-1'
+p889
+aS'3-5-1-1'
+p890
+aS'4-2-3-1'
+p891
+aS'4-2-3-1'
+p892
+aS'4-3-1-2'
+p893
+aS'4-2-3-1'
+p894
+aS'4-2-3-1'
+p895
+aS'4-2-3-1'
+p896
+aS'4-2-3-1'
+p897
+aS'3-4-1-2'
+p898
+aS'4-2-3-1'
+p899
+aS'4-1-4-1'
+p900
+aS'4-2-3-1'
+p901
+aS'4-3-1-2'
+p902
+aS'4-4-1-1'
+p903
+atp904
+ba(lp905
+g9
+(g10
+(dp906
+g12
+g13
+(g14
+(I0
+tp907
+g16
+tp908
+Rp909
+(I1
+(I6
+tp910
+g23
+I00
+(lp911
+g27
+ag28
+ag29
+ag30
+ag31
+ag32
+atp912
+bsg34
+Nstp913
+Rp914
+a(dp915
+S'0.14.1'
+p916
+(dp917
+S'axes'
+p918
+g8
+sS'blocks'
+p919
+(lp920
+(dp921
+S'mgr_locs'
+p922
+c__builtin__
+slice
+p923
+(I0
+I6
+I1
+tp924
+Rp925
+sS'values'
+p926
+g55
+sasstp927
+bb.
